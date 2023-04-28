@@ -1,3 +1,26 @@
+## ignition_math6_vendor (rolling) - 0.2.0-1
+
+The packages in the `ignition_math6_vendor` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --track rolling --rosdistro rolling ignition_math6_vendor` on `Fri, 28 Apr 2023 17:30:51 -0000`
+
+The `ignition_math6_vendor` package was released.
+
+Version of package(s) in repository `ignition_math6_vendor`:
+
+- upstream repository: https://github.com/ignition-release/ignition_math6_vendor.git
+- release repository: https://github.com/ros2-gbp/ignition_math6_vendor-release.git
+- rosdistro version: `0.0.3-1`
+- old version: `0.0.3-1`
+- new version: `0.2.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## ignition_math6_vendor (iron) - 0.0.3-1
 
 The packages in the `ignition_math6_vendor` repository were released into the `iron` distro by running `/usr/bin/bloom-release ignition_math6_vendor -r iron` on `Tue, 25 Apr 2023 16:14:47 -0000`
