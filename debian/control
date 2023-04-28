@@ -1,0 +1,12 @@
+Source: ros-iron-ignition-math6-vendor
+Section: misc
+Priority: optional
+Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), cmake, git, libeigen3-dev, libignition-math6-dev, ros-iron-ament-cmake-copyright <!nocheck>, ros-iron-ament-cmake-lint-cmake <!nocheck>, ros-iron-ament-cmake-test, ros-iron-ament-cmake-xmllint <!nocheck>, ros-iron-ignition-cmake2-vendor, ros-iron-ros-workspace
+Homepage: https://github.com/ignitionrobotics/ign-math
+Standards-Version: 3.9.2
+
+Package: ros-iron-ignition-math6-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libignition-math6-dev, ros-iron-ignition-cmake2-vendor, ros-iron-ros-workspace
+Description: This package provides the Ignition Math 6.x library.
