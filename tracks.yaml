@@ -11,7 +11,7 @@ tracks:
     - git-bloom-generate -y rosdebian --prefix release/:{ros_distro} :{ros_distro}
       -i :{release_inc} --os-name debian --os-not-required
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
-      :{release_inc} --os-name fedora
+      :{release_inc} --os-name fedora --skip-keys ignition-math6
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
       :{release_inc} --os-name rhel --skip-keys ignition-math6
     devel_branch: humble
@@ -37,7 +37,7 @@ tracks:
     - git-bloom-generate -y rosdebian --prefix release/:{ros_distro} :{ros_distro}
       -i :{release_inc} --os-name debian --os-not-required
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
-      :{release_inc} --os-name fedora
+      :{release_inc} --os-name fedora --skip-keys ignition-math6
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
       :{release_inc} --os-name rhel --skip-keys ignition-math6
     devel_branch: iron
@@ -63,7 +63,7 @@ tracks:
     - git-bloom-generate -y rosdebian --prefix release/:{ros_distro} :{ros_distro}
       -i :{release_inc} --os-name debian --os-not-required
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
-      :{release_inc} --os-name fedora
+      :{release_inc} --os-name fedora --skip-keys ignition-math6
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
       :{release_inc} --os-name rhel --skip-keys ignition-math6
     devel_branch: rolling
