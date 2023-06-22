@@ -2,7 +2,12 @@
 Changelog for package ignition_math6_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.1.0 (2023-04-28)
+0.2.1 (2023-06-22)
+------------------
+* Switch to ament_cmake_vendor_package (`#9 <https://github.com/gazebo-release/gz_math6_vendor/issues/9>`_)
+* Contributors: Scott K Logan
+
+0.2.0 (2023-04-28)
 ------------------
 
 0.0.3 (2023-04-25)
