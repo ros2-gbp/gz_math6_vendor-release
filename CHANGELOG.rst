@@ -2,6 +2,11 @@
 Changelog for package ignition_math6_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.0 (2024-03-08)
+------------------
+* Vendor gz_math6 unconditionally. (`#10 <https://github.com/gazebo-release/gz_math6_vendor/issues/10>`_)
+* Contributors: Steven! Ragnarök
+
 0.2.1 (2023-06-22)
 ------------------
 * Switch to ament_cmake_vendor_package (`#9 <https://github.com/gazebo-release/gz_math6_vendor/issues/9>`_)
