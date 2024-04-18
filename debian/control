@@ -1,0 +1,12 @@
+Source: ros-jazzy-ignition-math6-vendor
+Section: misc
+Priority: optional
+Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ament-cmake, ament-cmake-copyright <!nocheck>, ament-cmake-core, ament-cmake-lint-cmake <!nocheck>, ament-cmake-xmllint <!nocheck>, libeigen3-dev, python3-ament-cmake-test, ros-jazzy-ignition-cmake2-vendor, ros-jazzy-ros-workspace
+Homepage: https://github.com/ignitionrobotics/ign-math
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-ignition-math6-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-ignition-cmake2-vendor, ros-jazzy-ros-workspace
+Description: This package provides the Ignition Math 6.x library.
